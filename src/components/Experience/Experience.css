@@ -1,0 +1,25 @@
+.experience__item {
+  width: 100%;
+  text-align: left;
+}
+
+.experience__role {
+  margin-top: 0.5em;
+  font-weight: 500;
+  color: var(--clr-primary);
+}
+
+.experience__period {
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+}
+
+.experience__highlights {
+  margin-top: 1em;
+  padding-left: 1.2em;
+  list-style: disc;
+}
+
+.experience__highlights li {
+  margin-top: 0.5em;
+}
