@@ -28,6 +28,7 @@ const projects = [
       'One of South Asia’s largest e-commerce marketplaces, part of Alibaba Group. Revamped the top-up service, driving a 20% increase in gross merchandise value (GMV).',
     stack: ['React', 'React Native', 'Node.js', 'Angular', 'MySQL', 'Java'],
     livePreview: 'https://www.daraz.pk/',
+    image: 'daraz.jpg',
   },
   {
     name: '5lynx',
@@ -35,18 +36,21 @@ const projects = [
       'A RAG-powered platform that matches homeowners with a single top-rated, licensed service provider for their home projects instead of a list to compare.',
     stack: ['React', 'Node.js', 'RAG', 'PostgreSQL', 'AWS'],
     livePreview: 'https://5lynx.com/',
+    image: '5lynx.jpg',
   },
   {
     name: 'GoZayaan',
     description:
       'An online travel platform for booking flights, hotels and holiday packages, serving travellers in Bangladesh and Pakistan.',
     livePreview: 'https://gozayaan.com/',
+    image: 'gozayaan.jpg',
   },
   {
     name: 'Pioneer Auctions',
     description:
       'A UAE online auction platform for vehicles, electronics, furniture, real estate, luxury items and industrial equipment across the emirates.',
     livePreview: 'https://www.pioneerauctions.ae/',
+    image: 'pioneer-auctions.jpg',
   },
   {
     name: 'FuturByte',
@@ -54,6 +58,7 @@ const projects = [
       'Website of a Karachi-based software company delivering mobile apps, web platforms and business systems (ERP, CRM, POS) for clients in the UAE, USA and UK.',
     stack: ['React', 'Next.js', 'Node.js'],
     livePreview: 'https://futurbyte.pk/',
+    image: 'futurbyte.jpg',
   },
 ]
 

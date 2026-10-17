@@ -1,12 +1,10 @@
+import { about } from '../../portfolio'
 import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
-    <a
-      href='https://github.com/rjshkhr/cleanfolio'
-      className='link footer__link'
-    >
-      Arslan Fareed · Template by Raj Shekhar
+    <a href={about.social.linkedin} className='link footer__link'>
+      &copy; {new Date().getFullYear()} {about.name}
     </a>
   </footer>
 )
